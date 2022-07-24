@@ -1,2 +1,1 @@
-# bartmars.github.io
-Portfolio website
+# Hi there!
