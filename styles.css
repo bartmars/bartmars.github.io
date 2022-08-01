@@ -112,20 +112,16 @@ body {
     background-color: #2C73D2;    
 }
 
-.projects-h2 {
-    margin-block: 1rem;
-}
-
 .portfolio {
     display: flex;
-    /* flex-wrap: wrap; TODO: Defaults to nowrap, so everything on one line -> Fix needed */
-    flex-direction: row;
+    flex-flow: row wrap;
     margin-block: 1.5rem;
     gap: 1rem;
+    width: 100%;
 }
 
 .portfolio-item {
-    /* width: 49%; TODO: Responsiveness fails at lower screen -> half screen is used */
+    width: 100%;
 }
 
 .article-placeholder {
@@ -138,6 +134,3 @@ body {
     background-image: repeating-linear-gradient(45deg, #93C3FF 0, #93C3FF 1.5px, #ffffff 0, #ffffff 50%);
 }
 
-.contact-h3 {
-    text-align: center;
-}
