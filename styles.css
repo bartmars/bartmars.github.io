@@ -188,8 +188,17 @@ body {
     border: 5px #eee solid;
 }
 
+/* Microsoft recommendations */
 @media (max-width: 640px) {
     .row {
         flex-direction: column;
     }
+}
+
+@media (min-width: 641px) and (max-width: 1007px) {
+
+}
+
+@media (min-width: 1008px) {
+
 }
