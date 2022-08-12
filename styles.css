@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 :root {
     --primary: #2C73D2;
     --primary-dark: #0C67C4;
@@ -25,6 +28,10 @@ body {
     color: var(--text-color);
     font-family: 'Poppins', sans-serif;
     line-height: 1.6rem;
+}
+
+.alt-font {
+    font-family: 'Merriweather', serif;
 }
 
 .light-bg {
@@ -163,7 +170,13 @@ body {
     font-size: 1.2rem;
     margin-block: 2rem;
     height: 350px;
-    background-color: #424656;    
+    /* background-color: #424656;*/
+    background: linear-gradient(
+        45deg,
+        #532DD2,
+        #2C73D2,
+        #532DD2
+    );
 }
 
 .photo-img {
@@ -173,15 +186,6 @@ body {
     float: left;
     margin-right: 1rem;
     border: 5px #eee solid;
-}
-
-.article-placeholder {
-    height: 250px;
-    margin-block: 1rem;
-    content: " ";
-    opacity: 0.3;
-    background-size: 15px 15px;
-    background-image: repeating-linear-gradient(45deg, #93C3FF 0, #93C3FF 1.5px, #ffffff 0, #ffffff 50%);
 }
 
 @media (max-width: 640px) {
