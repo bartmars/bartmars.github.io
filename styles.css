@@ -208,7 +208,7 @@ body {
         flex-direction: column;
     }
     .col-layout {
-        gap: 5px;
+        gap: 0px;
     }
 }
 
