@@ -99,6 +99,8 @@ body {
     /* align-content: flex-start; */
 }
 
+
+
 .note {
     font-size: 0.75rem;
 }
@@ -204,6 +206,9 @@ body {
 @media (max-width: 640px) {
     .row {
         flex-direction: column;
+    }
+    .col-layout {
+        gap: 5px;
     }
 }
 
